@@ -622,15 +622,49 @@ We at Eqourse strongly feel that our partners are the real pioneers of force.<br
     </script>
 	 <script>
     function sendMail(){
+	var name=document.getElementById("name").value;
+	var email=document.getElementById("email").value;
+	var contact=document.getElementById("contact").value;
+	
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	if(name==''||name==null||name==undefined)
+	{
+		alert("Name should not be empty");
+		 return;
+	}
+	if(email==''||email==null||email==undefined){
+		 alert("Email should not be empty!!");
+		 return;
+	 }
+	 if(email.length<1||!email.match(mailformat)){
+		 alert("Invalid Email !!");
+		 return;
+	 }
+	 if(contact==null||contact==''||contact==undefined)
+		 {
+		 alert("Contact number should not be empty!!");
+		 return;
+	 }
+	  if(contact.match(/\d/g)==null || contact.match(/\d/g).length!=10){
+		 alert("Invalid Contact Number !!");
+		  return;
+	 }
     debugger;
     Email.send({
-         SecureToken : "dbefaf8e-b2ea-49ec-9235-3586db7a782a",
-        To : 'davinderdhindsa350@gmail.com',
-		From : "noreply.kamalestates@gmail.com",
-        Subject : "Client Request",
+          Host : "smtp.elasticemail.com",
+    Username : "work@Eqourse.com",
+    Password : "6ABC6800EF596715433190D4A4E8767A9DEA",
+        To : 'work@Eqourse.com,work@dsocialstylus.com,dsocialstylus@gmail.com',
+		From : "davinderdhindsa356@gmail.com",
+        Subject : "Client Request Eqourse",
         Body : "Client Name :  "+document.getElementById("name").value +" <br/>Email:"+document.getElementById("email").value+"<br/>Contact :"+document.getElementById("contact").value
         }).then(
-          message => alert("Thanks we will connect you soon.")
+          message => {
+		  if(message=="OK")
+			alert("Thanks we will connect you soon.")
+			else
+			alert("Please send mail to work@Eqourse.com . Sorry due to some System error not able to save details")
+			}
         );
     }
   </script>

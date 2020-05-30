@@ -90,28 +90,19 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-    var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'contactform/contactform.php';
+     Email.send({
+           Host : "smtp.elasticemail.com",
+    Username : "work@Eqourse.com",
+    Password : "6ABC6800EF596715433190D4A4E8767A9DEA",
+        To : 'davinderdhindsa350@gmail.com',
+		From : "work@Eqourse.com",
+        Subject : "Client Request Eqourse",
+        Body : "Client Name :  "+document.getElementById("name").value +" <br/>Email:"+document.getElementById("email").value+"<br/>Contact :"+document.getElementById("contact").value
+        }).then(
+          message => alert("Thanks we will connect you soon.")
+        );
     }
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: str,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
-
-      }
-    });
+   
     return false;
   });
 
