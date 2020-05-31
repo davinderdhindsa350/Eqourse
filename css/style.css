@@ -32,16 +32,16 @@ h1, h2, h3, h4, h5, h6{
     color: #4B4B4C;
 }
 a{
-    color: #f0cb55;
+    color: #c59c1f;
 }
 a:hover, a:focus{
-    color: #f0cb55;
+    color: #c59c1f;
 }
 /***********************************
 Navigation bar
 ************************************/
 .navbar-default .navbar-brand {
-    color: #f0cb55;
+    color: #c59c1f;
 }
 .navbar-default {
     background-color: #ffffff;
@@ -61,25 +61,25 @@ Navigation bar
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
-	color: #f0cb55;
+	color: #c59c1f;
 }
 
 .navbar-nav .active a{
     background: none !important;
-    color: #f0cb55 !important;
+    color: #c59c1f !important;
     outline: none;
 }
 
 .btn-trial a{
-	background-color: #f0cb55;
+	background-color: #c59c1f;
 	border-radius: 25px;
 	color: #ffffff !important;
-	border: 1px solid #f0cb55;
+	border: 1px solid #c59c1f;
 }
 .btn-trial a:hover, .btn-trial a:focus{
-	border: 1px solid #f0cb55;
+	border: 1px solid #c59c1f;
 	background-color: #fff;
-	color: #f0cb55 !important;
+	color: #c59c1f !important;
 }
 .navbar-default .navbar-brand {
     font-family: 'Dosis', sans-serif !important;
@@ -123,7 +123,7 @@ Banner
     color: #fff;
 }
 .text-border{
-	/***border: 5px solid #f0cb55;***/
+	/***border: 5px solid #c59c1f;***/
 	display: inline-block;
 	margin-top: 150px;
 }
@@ -209,13 +209,13 @@ Banner
     padding-right: 0px;
 }
 .big-text{
-    font-size: 35px;
+    font-size: 45px;
 }
 .small-text{
     font-size: 16px;
 }
 .quote .btn{
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -224,7 +224,7 @@ Banner
 }
 .quote .btn:hover, .quote .btn:focus{
     background-color: #fff;
-    color: #f0cb55;
+    color: #c59c1f;
     border-color: #fff;
      -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -253,7 +253,7 @@ h2{
 }
 .fea i {
     font-size: 39px;
-    color: #f0cb55;
+    color: #c59c1f;
     margin-top: 7px;
 }
 .heading h4 {
@@ -275,7 +275,7 @@ h2{
 }
 .orga-stru
 {
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     width: 109px;
     height: auto;
     padding: 10px 10px 25px 10px;
@@ -309,7 +309,7 @@ h3.det-txt {
     text-transform: uppercase;
 }
 h4.sm-txt {
-    color: #f0cb55;
+    color: #c59c1f;
     font-size: 24px;
 }
 p.det-p {
@@ -340,7 +340,7 @@ Cta
     min-width: 280px;
     margin-left: -4px;
     margin-bottom: 2px;
-    border: 1px solid #f0cb55;
+    border: 1px solid #c59c1f;
     background-color: rgb(247, 247, 247);
     border-radius: 30px 0px 0px 30px;
 }
@@ -348,7 +348,7 @@ Cta
     font-size: 18px;
     text-transform: capitalize;
     color: #fff;
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     border: 2px solid #fff;
     padding: 14px 30px;
     margin-left: -4px;
@@ -375,7 +375,7 @@ Work Shop
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
 }
 .icon-box i {
-    color: #f0cb55;
+    color: #c59c1f;
     font-size: 65px;
 }
 .ser-text {
@@ -434,10 +434,10 @@ Testimonial
 Course
 ************************************/
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
-    background-color: #f0cb55;
+    background-color: #c59c1f;
 }
 [class*=" imghvr-"], [class^="imghvr-"] {
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     color: #fff;
 }
 /***********************************
@@ -481,7 +481,7 @@ Price Table
     padding: 20px 0px;
     font-weight: bold !important;
     font-size: 14px;
-    background-color: #f0cb55;
+    background-color: #c59c1f;
 }
 /***********************************
 Contact Us
@@ -600,14 +600,14 @@ Footer
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .btn-submit:hover, .btn-submit:focus{
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     color: #fff;
 }
 .btn-submit{
 	padding: 14px 12px;
 	border-radius: 50px;
 	text-transform: uppercase;
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     color: #fff;
 }
 .btn-submit i{
@@ -655,7 +655,7 @@ Footer
     padding: 10px 20px;
 }
 .light-form-button{
-    background: #f0cb55;
+    background: #c59c1f;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 24%;
     padding: 10px 10px;
@@ -669,7 +669,7 @@ Footer
   transition: all 0.3s ease-in-out;
 }
 .btn-green, .btn-green:hover{
-    background-color: #f0cb55;
+    background-color: #c59c1f;
     color: #fff;
 }
 .footer .form-control:focus{
@@ -714,7 +714,7 @@ Responsive media queries
     font-size: 20px;
     }
     .big-text {
-    font-size: 30px;
+    font-size: 40px;
     }
     .small-text {
     font-size: 14px;
